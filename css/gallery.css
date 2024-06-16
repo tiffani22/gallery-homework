@@ -1,0 +1,35 @@
+body{
+	margin: 2%;
+/*border: 1px solid black;*/
+}
+#image{
+  line-height:60px;
+	width: 350px;
+  height: 250px;
+	border:5px solid black;
+	margin:0 auto;
+  background-color: #8e68ff;
+  background-image: url('');
+  background-repeat: no-repeat;
+  color:#ffffff;
+  text-align: center;
+  text-shadow: 2px 1px 1px rgb(0, 0, 0);
+  background-size: 115%;
+  margin-bottom: 5%;
+  font-size: 100%;
+}
+
+.preview{
+	width: 10%;
+	margin-left:15%;
+  border: 10px solid black;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.preview:focus {
+  outline: none;
+  border: 10px solid blue;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  opacity: 1;
+}
